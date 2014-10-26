@@ -21,7 +21,7 @@ Step by step
 * First require dplry package, it will try to install if does not exist
 * Prepare the files needed to create tidy data
 * Validate whether temp zip file is available in working directory, else download it automatically
-* oading data which contains descriptive activity names like features and activities
+* Load data which contains descriptive activity names like features and activities
 * Filter only features that include the measurements mean or standard deviation but not for any feature
 with the word 'mean' or 'std' in it. Just mean() and std() precisely, because two types of measurement required
 * Prepare columns names which will be skipped due to filtering features
