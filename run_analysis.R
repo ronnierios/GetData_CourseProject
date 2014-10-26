@@ -76,7 +76,7 @@ data <- rbind(data,dataxy)
 rm(datax,datay,dataxy)
 
 #Creating tidy data file in working directory
-write.table(data,file="tidydata.txt",row.names=FALSE))
+write.table(data,file="tidydata.txt",row.names=FALSE)
 
 #Summarizing tidy data and averaging features by activity each subject,
 #and finally create file in working directory
