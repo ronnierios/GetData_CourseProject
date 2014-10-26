@@ -8,24 +8,40 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Variables 
 ===========
+**Variable Name:** Subject
 
-Variable Name: Subject
-Data type: integer
-Values: from 1 to 30 volunteers within an age bracket of 19-48 years
+**Data type:** integer
 
-Variable Name: Activity
-Data type: character
-Values: From 1 to 6 activity performed by the subject
- 0 .WALKING
- 1 .WALKING_UPSTAIRS
- 2 .WALKING_DOWNSTAIRS
- 3 .East North Central (Midwest region)
- 4 .SITTING
- 5 .STANDING
- 6 .LAYING
+**Values:** from 1 to 30 volunteers within an age bracket of 19-48 years
+
+
+
+**Variable Name:** Activity
+
+**Data type:** character
+
+**Values:** From 1 to 6 activity performed by the subject
+
+**Examples:**
+1. WALKING 
+2. WALKING_UPSTAIRS 2
+3. WALKING_DOWNSTAIRS 3
+4. SITTING 4
+5. STANDING 5
+6. LAYING 6
  
 66 Variables reamaining belongs to set of variables that were estimated from the accelerometer 
 and gyroscope sensors on the smartphone signals, which only the mean() and std() variables were chosen: 
 mean(): Mean value
 std(): Standard deviation
 More information: features.txt
+
+Transformation
+===========
+After extracting train and test dataset from files, they were combined for create a unified dataset.
+
+Only Measurements were extracted for mean, standard deviation for each measurement.
+
+Activity and features vairiables were set with descriptive names.
+
+The tidy dataset generated is located in your current working directory called `tidydata.txt`
