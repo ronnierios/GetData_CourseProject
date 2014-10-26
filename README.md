@@ -3,12 +3,12 @@ GetData_CourseProject
 
 Course Project for Getting and Cleaning Data
 
-This repository contains the solution for the getdata-008 course project, with the following files:
+The following files contains the solution for the getdata-008 course project:
 
 * run_analysis.R script: Code to transform raw data to the tidy dataset specified in the project instructions.
 * CodeBook.md: the code book for the resulting dataset, describing the variables, the data and the transformations performed to clean up the data.
 
-Data Sourse
+Data Source
 =====================
 This project uses the "Human Activity Recognition Using Smartphones Dataset" downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
